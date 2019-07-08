@@ -1,0 +1,576 @@
+@media (min-width: 992px) and (max-width: 1920px) {
+
+	#header{
+
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		height: 50px;
+		
+	}
+	#header ul{
+		margin-right: 60px;
+	}
+	#local{
+		margin-right: 70px;
+	}
+	#header ul li a{
+
+		font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 500;
+		color: #fff;
+		font-weight: 300;
+	}
+
+	#logo{
+		position: relative;
+		left: 30px;
+	bottom: 10px;
+	}
+
+	.nav{
+		
+		height: 100px;
+	}
+	
+	#home{
+		margin-left:60px;
+		display: flex;
+		box-sizing: border-box;
+		justify-content:space-between; 
+		width: 100%;
+		
+	
+
+	}
+
+	#drop_menu{
+		margin-left: 60px;
+	}
+	#menu-pesquisa1:hover{
+		background: rgba(2, 1, 6, 0.5); 
+		padding-top: 38px;
+		padding-bottom: 38px;
+		border: 0px;
+
+	}
+
+	#menu-pesquisa1,#menu-pesquisa3 {
+		color:#fff;
+		text-transform: uppercase;
+		/*font-size: 16px;*/
+		font-weight: 400;
+		font-family: 'Oswald', sans-serif;
+	}
+	#drop_menu li:hover #menu-pesquisa3{
+		color: #B30D0D;
+		border-radius: 0;
+		border:0;
+	}
+
+	#drop_menu li:hover ul {
+		box-shadow: 1px 1px 1px 0px #ccc;
+		display:block;
+		border-radius: 0;
+		background:#FFF6FC;
+		margin: 0px;
+	}
+	.dropdown{
+		height: 100px;
+		
+	}
+	
+	.dropdown-toggle,.active{
+		margin-top: 30px;
+	}
+	#pesquisa-unput{
+		margin-top: 25px;
+       margin-right: 60px;
+       display: flex;
+
+	}
+
+	#menu:hover {
+	
+		background:#FFF6FC;
+		border: 1px solid #817373;
+		border-radius: 0px;
+		box-sizing: border-box;
+		border: 0;
+
+
+	}
+
+
+	#menu-sub {
+		color: #000;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 400;
+		font-family: 'Oswald', sans-serif;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#macapa{
+
+	}
+	#header{
+
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 50px;
+		
+	}
+	#header ul{
+		margin: 0;
+		padding: 0;
+		
+		
+		
+	}
+	#header ul li {
+		display: inline;
+		text-decoration: none;
+		font-size: 15px;
+
+	}
+
+	#header ul li a{
+
+		font-family: Gill Sans, sans-serif;
+		color: #fff;
+		font-weight: 500;
+		padding-left: 10PX;
+
+
+	}
+	#header ul li #whatsapp {
+		font-size: 15px;
+		display: inline-block;
+		/*background: #333;*/
+		color: #6FEF6B;
+		line-height: 1;
+		padding: 8px 0;
+		margin-left: 8px;
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook {
+		font-size: 15px;
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#instagram{
+		font-size: 15px;
+
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook-cor{
+		color:  #81B5E3;
+	}
+	#instagram-cor{
+		color: #125688;
+		font-size: 
+	}
+	#login-usuario{
+		color: #fff;
+		background: #6E6C6C;
+
+		padding-top: 5px;
+		padding-bottom: 21px;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+
+
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+	#login-usuario img{
+		height: 14px;
+		width: 14px;
+	}
+
+	#menu-pesquisa{
+		display: none;
+	}
+	
+	#input-pesquisa{
+		float: right;
+		margin-top: 24px;
+	}
+	#txtbusca {
+
+		border:0px solid #222;
+		background:#EEE;
+		/*background: green;*/
+		width:260px;
+		height:50px;
+		margin:0 auto;
+		font-style:oblique;
+		font-weight: bold;
+		padding:5px 0 5px 5px;
+		float:left; // posição do campo
+		line-height:36px; // altura da linha
+	}
+	#btnBusca {
+
+		background:#C8C5C5;
+		/*position:relative;*/
+		border:0px solid #222;
+		color:#FFF; 
+		margin:0 auto;
+		padding:10px;
+		border:0 none;
+		width:70px;
+		height: 50px;
+
+	}
+	/*contato*/
+	
+	/*fim contato*/
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#header{
+
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#duvidas{
+		display: none;
+	}
+	#header ul{
+		margin: 0;
+		padding: 0;
+
+
+
+		
+	}
+	#header ul li {
+		display: inline;
+		text-decoration: none;
+		font-size: 15px;
+
+	}
+
+	#header ul li a{
+
+		font-family: Gill Sans, sans-serif;
+		color: #fff;
+		/*font-weight: 500;*/
+		padding-top: 28PX;
+
+
+	}
+	#header ul li #whatsapp {
+		font-size: 18px;
+		display: inline-block;
+		/*background: #333;*/
+		color: #6FEF6B;
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook {
+		font-size: 18px;
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		margin-bottom: 20px;
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#instagram{
+		font-size: 18px;
+
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook-cor{
+		color:  #81B5E3;
+	}
+	#instagram-cor{
+		color: #125688;
+		font-size: 
+	}
+	#login-usuario{
+		color: #fff;
+		background: #6E6C6C;
+
+		padding-top: 5px;
+		padding-bottom: 21px;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+
+
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+	#login-usuario img{
+		height: 14px;
+		width: 14px;
+	}
+
+
+
+	#menu-sub {
+		color: #000;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#menu-pesquisa1,#menu-pesquisa2,#menu-pesquisa3 {
+
+
+		color:#fff;
+
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+
+
+}
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+	#header{
+
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 50px;
+		
+	}
+	#header ul li #whatsapp {
+		font-size: 18px;
+		display: inline-block;
+		/*background: #333;*/
+		color: #6FEF6B;
+		line-height: 1;
+		padding: 8px 0;
+		margin-left: 8px;
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook {
+		font-size: 18px;
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#instagram{
+		font-size: 18px;
+
+		display: inline-block;
+		/*background: #333;*/
+		
+		line-height: 1;
+		padding: 8px 0;
+		
+		
+		text-align: center;
+		
+		transition: 0.3s;
+	}
+	#facebook-cor{
+		color:  #81B5E3;
+	}
+	#instagram-cor{
+		color: #125688;
+		font-size: 
+	}
+	#login-usuario{
+		color: #fff;
+		background: #6E6C6C;
+
+		
+
+
+		text-transform: uppercase;
+		font-size: 15px;
+		
+		font-family: 'Oswald', sans-serif;
+	}
+	#login-usuario img{
+		height: 14px;
+		width: 14px;
+	}
+	#header{
+
+
+		display: flex;
+
+		
+		align-items: center;
+		height: 50px;
+		
+	}
+	#duvidas,#quem-somos,#contato{
+		display: none;
+	}
+	#header ul{
+		margin: 0;
+		padding: 0;
+		
+	}
+	#local{
+		font-size: 12px;
+	}
+
+
+	#menu-sub {
+		color: #000;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+
+	#menu-pesquisa1,#menu-pesquisa2,#menu-pesquisa3 {
+
+
+		color:#fff;
+
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 800;
+		/*font-style: italic;*/
+		font-family: 'Oswald', sans-serif;
+	}
+	#txtbusca {
+		border:0px solid #222;
+		background:#EEE;
+		width:190px;
+		height:50px;
+		margin:0 auto;
+		font-style:oblique;
+		font-weight: bold;
+		padding:5px 0 5px 5px;
+		float:left; // posição do campo
+		line-height:36px; // altura da linha
+	}
+	#btnBusca {
+
+			background:#C8C5C5;
+		/*position:relative;*/
+		border:0px solid #222;
+		color:#FFF; 
+		margin:0 auto;
+		padding:10px;
+		border:0 none;
+		width:60px;
+		height: 50px;
+
+	}
+	.nav{
+		background: ;
+	}
+	#iconi-texto{
+font-family: arial;
+margin-right: 10px;
+}
+#iconi-tamanho{
+	font-size: 14px;
+	text-align: center;
+	color: transparent;
+	color: #999393;
+}
+#preco {
+
+	font-size: 14px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+
+}
+/*footer*/
+#macapa-ap{
+	display: block;
+	font-weight: 200;
+	color: transparent;
+	color: #ccc;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+}
+#pesquisa-titulo{
+	
+
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #275280;
+	font-family: 'Oswald', sans-ser
+}
+#pesquisa-preco{
+	float: left;
+	font-size: 18px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+/*fim footer*/
+}
